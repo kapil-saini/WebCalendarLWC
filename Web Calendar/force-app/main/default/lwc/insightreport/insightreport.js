@@ -15,6 +15,9 @@ export default class Insightreport extends LightningElement {
     showtimetracking;
     showforecasting;
     var1;
+=======
+    testVarGithub = 'test';
+>>>>>>> parent of 7f69a5f (Update insightreport.js)
     
     @wire(getSubscription,{ contactforsubscription : '$loggedincontact'})
     wiredsubscriptionDates(data,error){
