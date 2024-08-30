@@ -16,7 +16,7 @@ export default class Insightreport extends LightningElement {
     showforecasting;
     var1;
     var2;
-    var3;
+    
 
     
     @wire(getSubscription,{ contactforsubscription : '$loggedincontact'})
