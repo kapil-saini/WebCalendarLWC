@@ -14,7 +14,7 @@ export default class Insightreport extends LightningElement {
     showlookup;
     showtimetracking;
     showforecasting;
-    testVarGithub = 'test';
+    testVarGithub = 'KapilGTHub';
     
     @wire(getSubscription,{ contactforsubscription : '$loggedincontact'})
     wiredsubscriptionDates(data,error){
